@@ -25,6 +25,12 @@ return [
         'token' => env('POSTMARK_TOKEN'),
     ],
 
+    'google' => [
+        'client_id' => '1069437802667-d6fqn2afklf0h1ubue24gj55t5fr4hl8.apps.googleusercontent.com',
+        'client_secret' => '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',
+        'redirect' => 'https://coreapi.hanatyoma.com/callback/google',
+      ], 
+
     'ses' => [
         'key' => env('AWS_ACCESS_KEY_ID'),
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
